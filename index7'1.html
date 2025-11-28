@@ -10,21 +10,48 @@
         }
         header {
             height: 200px;
+            width: 100%;
             border: solid black;
         }
         #main {
             border: solid black;
+            width: 30%;
+        }
+        main {
+            display: flex;
+            width: 100%;
+
+        }
+        #gora{  
+            border: solid black;
+            height: 400px;
+            width: 100%;
+        }
+        #dol {
+            width: 100%;
+            height: 100px;
+        }
+        #prawy {
+            border: solid black;
+            width: 100%;
+            height: 500px;
+        }
+        span {
+            position: relative;
         }
     </style>
 </head>
 <body>
+    <span><a href="index.html">Powrót</a></span>
     <section id="kontener">
         <header>Blok naglowkowy</header>
+        <main>
         <section id="main">
-            <section>Sekcja lewa gora</section>
-            <section>Sekcja lewa dol</section>
+            <section id="gora">Sekcja lewa gora</section>
+            <section id="dol">Sekcja lewa dol</section>
         </section>
             <section id="prawy">Sekcja prawa</section>
     </section>
+    </main>
 </body>
 </html>
